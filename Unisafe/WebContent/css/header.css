@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+
+#header .headerBox .headerQuick li:first-child {
+    padding-left: 0px;
+    background: none;
+    margin-left: 0px;
+    }
+    
+#header .headerBox .headerQuick li {  float: left; background: url(../images/bar_header_quick.gif) no-repeat 0 35%; padding-left: 10px; margin-left: 9px;font-size: 11px;}
+#header .headerBox .headerQuick li.reciept {   display: inline-block; height: auto;}
+#header .headerBox .headerQuick { position: absolute;  right: 0; top: 10px;}
+#header { width: 100%; height: auto;  position: relative;  margin-bottom: 20px; z-index: 99; border-bottom: 2px solid #01adef;}
+#header .headerBox { width: 960px; margin: 0 auto 0; position: relative; height: 120px; z-index: 2; background-color: #fff;}

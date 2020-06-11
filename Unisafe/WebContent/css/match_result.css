@@ -1,0 +1,519 @@
+@charset "UTF-8";
+
+
+
+#header .headerBox .headerQuick li:first-child {
+    padding-left: 0px;
+    background: none;
+    margin-left: 0px;
+    }
+    
+#header .headerBox .headerQuick li {  float: left; background: url(../images/bar_header_quick.gif) no-repeat 0 35%; padding-left: 10px; margin-left: 9px;font-size: 11px;}
+#header .headerBox .headerQuick li.reciept {   display: inline-block; height: auto;}
+#header .headerBox .headerQuick { position: absolute;  right: 0; top: 10px;}
+#header { width: 100%; height: auto;  position: relative;  margin-bottom: 20px; z-index: 99; border-bottom: 2px solid #01adef;}
+#header .headerBox { width: 960px; margin: 0 auto 0; position: relative; height: 120px; z-index: 2; background-color: #fff;}
+
+#wrap .joinInfo2 {
+	background-color: #f8f8f8;
+}
+
+.joinInfo2 ul li {
+	list-style:none
+}
+
+#wrap #relCon
+{
+	 float: right;
+    width: 840px;
+    max-width: 840px;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.joinInfo2 ul li span {
+	color: #0098fb;
+}
+
+.joinInfo2 ul li {
+	font-size: 100%;
+	color: #777;
+	line-height: 24px;
+
+	padding-left: 9px;
+}
+
+.joinInfo2 {
+    border: 1px solid #dbdbdb;
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+ ol, ul {
+    list-style: none;
+} 
+
+label {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	color: inherit;
+}
+
+ .h2 {
+	text-align: center;
+    font-family: 'Nanum Gothic',dotum,verdana !important;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+} 
+
+
+
+input[type=text] {
+-webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: -internal-light-dark-color(white, black);
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+   	width:40px;
+}
+
+select {
+-webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: -internal-light-dark-color(white, black);
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    font-size:15px;
+
+}
+
+.row {
+	display: flow-root;
+	flex-wrap: wrap;
+	margin-right: 15px;
+
+	
+}
+
+.table {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 1rem;
+	background-color: transparent
+}
+
+.table th, .table td {
+	padding: .75rem;
+	vertical-align: top;
+	border-top: 1px solid #e9ecef
+}
+
+.table thead th {
+	vertical-align: bottom;
+	border-bottom: 2px solid #e9ecef
+}
+
+.table tbody+tbody {
+	border-top: 2px solid #e9ecef
+}
+
+.table .table {
+	background-color: #fff
+}
+
+.table-sm th, .table-sm td {
+	padding: .3rem
+}
+
+.table-bordered {
+	border: 1px solid #e9ecef
+}
+
+.table-bordered th, .table-bordered td {
+	border: 1px solid #e9ecef
+}
+
+.table-bordered thead th, .table-bordered thead td {
+	border-bottom-width: 2px
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+	background-color: rgba(0, 0, 0, .05)
+}
+
+.table-hover tbody tr:hover {
+	background-color: rgba(0, 0, 0, .075)
+}
+
+input {
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit
+}
+
+input {
+	overflow: visible
+}
+    
+.animals_result ul.animals_grid {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	border: 2px solid #fff
+}
+
+.animals_result ul.animals_grid li {
+	transition: .5s;
+	margin-right: 2px;
+	margin-bottom: 1em
+}
+
+
+.animals_result ul.animals_grid li:hover img {
+	transition: .2s;
+	opacity: .8
+}
+
+.animals_result ul.animals_grid li img.tierbild, .animals_result ul.animals_grid li a.tierbild
+	{
+	
+	max-width: 140px
+}
+
+@media ( min-width :768px) {
+	.animals_result ul.animals_grid li img.tierbild, .animals_result ul.animals_grid li a.tierbild
+		{
+		width: 150px;
+		height: 150px;
+	}
+}
+
+.animals_result ul.animals_grid li a {
+	position: relative;
+	display: inline-block
+}
+
+.animals_result ul.animals_grid li .tier_label {
+	z-index: 999;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	border-top: 2px solid #fff;
+	color: #000;
+	text-align: center;
+	background-color: #fff;
+	opacity: .8;
+	margin: 0;
+	padding: .5em
+}
+
+
+.animals_result1 .tip, .animals_result1 .fade-enter-active,
+	.animals_result1 .fade-leave-active {
+	transition: opacity .3s
+}
+
+.animals_result1 .fade-enter, .animals_result1 .fade-leave,
+	.animals_result1 .fade-leave-to {
+	opacity: 0
+}
+
+.animals_result1 input[type=checkbox], .animals_result1 input[type=radio]
+	{
+	display: none
+}
+
+.animals_result1 label {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+
+.animals_result1 label i.ti {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 2em;
+	margin-right: 10px
+}
+
+.animals_result1 input:checked+label {
+	background-color: #b2ce6a;
+	color: #fff
+}
+
+.animals_result1 input:checked+label i.ti {
+	color: #fff
+}
+
+.animals_result1 label:hover {
+	cursor: pointer
+}
+
+.animals_result1 .choices {
+	text-align: center;
+	padding: 2em;
+	position: relative;
+	margin-top: -8rem
+}
+
+.animals_result1 .choices label {
+	display: inline-block;
+	position: relative;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 1em;
+	margin: 0;
+	-webkit-border-radius: 6px;
+	border-radius: 6px
+}
+
+.animals_result1 .choices label:hover {
+	box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, .2), 0px 0px 5px
+		0px rgba(0, 0, 0, .4)
+}
+
+.animals_result1 .choices label span {
+	position: absolute;
+	display: block;
+	margin-top: 1.5em;
+	left: 0;
+	width: 100%;
+	color: #000;
+	padding: 4px
+}
+
+@media ( max-width :767px) {
+	.animals_result1 .choices label span {
+		display: none
+	}
+}
+
+.animals_result1 .choices label i.ti {
+	color: #65450e;
+	font-size: 4em;
+	margin: 0
+}
+
+.animals_result1 .choices input:checked+label {
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .4)
+}
+
+.animals_result1 .choices input:checked+label span {
+	font-weight: 700;
+	padding: 4px
+}
+
+@media ( max-width :767px) {
+	.animals_result1 .choices {
+		padding: 0;
+		margin-top: auto;
+		margin-bottom: 2em
+	}
+	.animals_result1 .choices label {
+		margin-bottom: 5px
+	}
+}
+
+.animals_result1 .choices label.dog {
+	background-color: #c18648
+}
+
+.animals_result1 .choices label.dog span {
+	color: #c18648
+}
+
+.animals_result1 .choices label.cat {
+	background-color: #d26043
+}
+
+.animals_result1 .choices label.cat span {
+	color: #d26043
+}
+
+.animals_result1 .choices label.small {
+	background-color: #f9d560
+}
+
+.animals_result1 .choices label.small span {
+	color: #e7b358
+}
+
+.animals_result1 .choices label.exot {
+	background-color: #e7b358
+}
+
+.animals_result1 .choices label.exot span {
+	color: #e7b358
+}
+
+.animals_result1 .choices label.birds {
+	background-color: #b2ce6a
+}
+
+.animals_result1 .choices label.birds span {
+	color: #89ba16
+}
+
+.animals_result1 .choices label.big {
+	background-color: #c0583e
+}
+
+.animals_result1 .choices label.big span {
+	color: #c0583e
+}
+
+@media ( max-width :767px) {
+	.animals_result1 .animal-filters {
+		border: 4px solid #adb5bd;
+		position: fixed;
+		background: #fff;
+		width: 100vw;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: 99999;
+		overflow-x: hidden;
+		transition: .5s
+	}
+}
+
+.animals_result1 ul.animals_grid {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	border: 2px solid #fff
+}
+
+.animals_result1 ul.animals_grid li {
+	transition: .5s;
+	margin-right: 2px;
+	margin-bottom: 1em
+}
+
+.animals_result1 ul.animals_grid li:hover img {
+	transition: .2s;
+	opacity: .8
+}
+
+.animals_result1 ul.animals_grid li img.tierbild, .animals_result1 ul.animals_grid li a.tierbild
+	{
+	border: 2px solid #fff;
+	max-width: 140px
+}
+
+@media ( min-width :768px) {
+	.animals_result1 ul.animals_grid li img.tierbild, .animals_result1 ul.animals_grid li a.tierbild
+		{
+		width: 150px;
+		height: 150px;
+	}
+}
+
+.animals_result1 ul.animals_grid li a {
+	position: relative;
+	display: inline-block
+}
+
+.animals_result1 ul.animals_grid li .tier_label {
+	z-index: 999;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	border-top: 2px solid #fff;
+	color: #000;
+	text-align: center;
+	background-color: #fff;
+	opacity: .8;
+	margin: 0;
+	padding: .5em
+}
+
+.animals_result1 .leiste {
+	border-top: 1px solid #e9ecef;
+	height: 64px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+@media ( max-width :767px) {
+	.animals_result .leiste {
+		flex-direction: column;
+		margin-bottom: 1em
+	}
+}
+
+.animals_result1 .leiste button {
+	background: #f6a800;
+	color: #fff;
+	border-radius: 4px;
+	padding: 5px 20px;
+	margin: auto 8px;
+	-webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, .5)
+}
+
+.animals_result1 .leiste .heading {
+	line-height: 1.5;
+	font-size: 1.25rem;
+	font-weight: 300;
+	vertical-align: middle
+}
+
+.animals_result1 .tierbild.default_animal_image {
+	width: 150px;
+	height: 150px;
+	background-color: #efefef;
+	background-image:
+		url(//tierschutz-berlin.de/wp-content/themes/tierschutz-berlin/css/../images/single-animal.svg);
+	background-size: 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: inline-block
+}

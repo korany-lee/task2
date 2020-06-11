@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+.table1 {
+	width: 740px;
+	border-top: 2px solid #454545;
+	border-bottom: 1px solid #dedede;
+
+}
+
+.table1 table {
+	width: 100%;
+}
+
+.table1 table tbody tr th {
+	text-align: left;
+	padding-left: 20px;
+	font-size: 12px;
+	
+	vertical-align: middle;
+	border-bottom: 1px solid #dedede;
+	font-family: 'Sunflower', sans-serif;
+}
+
+.table1 table tbody tr th img {
+	vertical-align: middle;
+}
+
+.table1 table tbody tr th span {
+	display: inline-block;
+	width: 10px;
+}
+
+.table1 table tbody tr td {
+	padding: 10px 0;
+	height: 24px;
+	line-height: 14px;
+	border-bottom: 1px solid #dedede;
+	color: #777777;
+	vertical-align: middle;
+	font-family: 'Sunflower', sans-serif;
+}
+
+.table1 table tbody tr td .input_text {
+	border: 1px solid #c0c0c0;
+	height: 22px;
+	line-height: 22px;
+	padding: 0 5px;
+	vertical-align: middle;
+}
+
+.table1 table tbody tr td .select {
+	border: 1px solid #c0c0c0;
+	height: 24px;
+	vertical-align: middle;
+}
+
+.table1 table tbody tr td img {
+	vertical-align: middle;
+}
+
+.table1 table tbody tr td .essential {
+	display: inline-block;
+	width: 10px;
+}
+
+.table1 table tbody tr td label {
+	color: #090909;
+	width: 77px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.table1 table tbody tr td .newsCheck .input_check {
+	margin-left: 40px;
+}
+
+.table1 table tbody tr td .newsCheck .input_check:first-child {
+	margin-left: 0px;
+}
+
+.table1 table tbody tr td textarea {
+	width: 580px;
+	max-width: 580px;
+	height: 98px;
+	border: 1px solid #c0c0c0;
+	padding: 5px;
+	line-height: 18px;
+}
+
+.table1 table tbody tr td span {
+	color: #090909;
+}
+
+.table1 table tbody tr td span.gray {
+	color: #777777;
+}
+
+.table1 table tbody tr td span.agree {
+	color: #0098fb;
+}
+
+.table1 table tbody tr td span.warning {
+	color: #E33E3E;
+}
+
+.table1 table tbody tr td span.blue {
+	color: #00acee;
+}
+
+.table1 table tbody tr td span.blank {
+	color: #000;
+}
+
+.table1 table tbody tr td span.btnModify {
+	display: inline-block;
+	line-height: 22px;
+	height: 22px;
+	width: 38px;
+	text-align: center;
+	border: 1px solid #dedede;
+	background-color: #f8f8f8;
+	font-size: 13px;
+}
+
+.table1 table tbody tr td ul li {
+	float: left;
+	margin-left: 30px;
+	color: #4a4a4a;
+	line-height: 24px;
+}
+.table1  input[type=submit] {
+	width: 210px;
+	background-color: #00bbff;
+	color: white;
+	padding: 10px 16px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.table1  input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+  input[type=button] {
+	width: 210px;
+	background-color: #00bbff;
+	color: white;
+	padding: 10px 16px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}

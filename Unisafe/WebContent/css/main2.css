@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+#container_index {overflow:hidden; margin: 0 auto; min-height:1100px; width:1200px;}
+.index {overflow:hidden; width:1200px;}
+
+#container_index_sub {overflow:hidden; margin: 0 auto; min-height:300px; width:1200px;}
+
+
+.area_campaign {overflow:hidden; position:relative; margin-top:70px;}
+.campagin_bts {float:left; background:url('../images/main/bts.png') no-repeat 0 0;margin-bottom:30px; width:580px; height:200px;}
+.campagin_bts .subtitle {background-color: #00aeef; color:#fff;padding:5px; width:106px;}
+.campagin_bts .maintitle {background-color: #00aeef; color:#fff; margin-left:20px; margin-top:130px; font-size:1.0em;line-height:1.2em; width:210px;padding:2px;}
+.campagin_bts .maintitle2 {float:left; background-color: #00aeef; color:#fff; margin-left:20px; margin-top:100px; font-size:1.3em;line-height:1.2em; width:100px;padding:2px; font-weight:600;}
+.campagin_etc {float:left; background:url('/images/main/banner_kim-hye-soo.jpg') no-repeat 0 0;margin-bottom:30px; width:580px; height:200px; margin-left:40px;}
+.campagin_etc .subtitle {background-color: #00aeef; color:#fff;padding:5px; width:165px;}
+.campagin_etc .maintitle {background-color: #00aeef; color:#fff; margin-left:20px; margin-top:130px; font-size:1.0em;line-height:1.2em; width:450px;padding:2px;}
+.campagin_etc .maintitle2 {float:left; background-color: #00aeef; color:#fff; margin-left:20px; margin-top:100px; font-size:1.3em;line-height:1.2em; width:145px;padding:2px; font-weight:600;}
+.campagin_long {float:left; background:url('/images/main/banner_lng_active.png') no-repeat 0 0;width:1200px; height:140px;margin-bottom:30px;}
+.campagin_long .maintitle {color:#fff;text-align:center; padding-right:20px; padding-top:70px; font-size:1.8em;line-height:1.3em;font-weight:bold;}
+.campagin_long .maindesc {color:#fff; padding-left:60px; font-size:1em;}
+.btn_style99 {background-color:#fff; display:inline-block; color:#00aeef; margin-left:20px; padding:8px 12px 8px 12px; margin-top:15px; font-weight:600;}
+
+.campagin_tran {float:left; background:url('./images/main/unicef_news.jpg') no-repeat 0 0;margin-bottom:30px; width:580px; height:200px;}
+.campagin_tran .subtitle {background-color: #00aeef; color:#fff;padding:5px; width:154px;}
+.campagin_tran .maintitle {color:#000; margin-left:40px; margin-top:62px; font-size:1.8em;line-height:1.4em;padding:2px; font-weight:700;}
+.campagin_tran .maintitle p {font-size:0.64em; font-weight:normal;}
+.campagin_fact {float:left; background:url('../images/main/fact.png') no-repeat 0 0;margin-bottom:30px; width:580px; height:200px; margin-left:40px;}
+.campagin_fact .subtitle {background-color: #00aeef; color:#fff;padding:5px; width:214px;}
+.campagin_fact .maintitle {color:#000; margin-left:30px; margin-top:60px; font-size:1.9em;line-height:1.2em;padding:2px; font-weight:700;}
+
+.area_news {float:left; overflow:hidden; position:relative; margin-bottom:60px; margin-top:60px;}
+.area_news .group_news {overflow:hidden; height:122px;}
+.area_news h1 {color:#090909; font-family:"Verdana"; font-size:22px; letter-spacing:-1px; line-height:1em; margin-bottom:20px;}
+
+.group_news > ul {position:absolute; right:0; top:0;}
+.group_news > ul > li {display:inline-block; float:left;}
+.group_news > ul > li .style4 a {background-color:#fff; border:1px solid #01adef; display:inline-block; color:#01adef; font-size:13px; line-height:18px; padding-right:9px; padding-left:9px; height:21px;}
+.group_news  > ul > li .style4 a:hover {background-color:#01adef; color:#fff;}
+.group_news  > ul > li .style4.on a {background-color:#01adef; color:#fff;}
+
+.group_news .list_latest {display:block;}
+.group_news .list_many {display:none;}
+
+.group_news ul.conts_news {display:block; overflow:hidden;}
+.conts_news li {display:inline-block; float:left; margin-left:40px;}
+.conts_news li:first-child {margin-left:0;}
+.conts_news li a {display:block; overflow:hidden; height:150px; width:360px;}
+.conts_news li a .thum_news,
+.conts_news li a .txt {display:block;}
+.conts_news li a .thum_news {border: 1px solid #dedede; float:left; margin-right:20px; height:120px; width:150px;}
+.conts_news li a .thum_news img {height:120px; width:150px;}
+.conts_news li a .txt {float:left; width:190px;}
+.conts_news li a strong.txt {color:#090909; font-size:14px; margin-bottom:12px; line-height:1.3em; height:40px;}
+.conts_news li a span.txt {overflow:hidden; color:#4a4a4a; font-size:13px; letter-spacing:-1px; margin-bottom:13px; height:40px; line-height:1.4em;}
+.conts_news li a em {color:#777; font-size:12px; font-style:normal;}
+
+/* 배너영역 */
+.section_bnr {clear:both; overflow:hidden;}
+.section_bnr .style3 {color:#fff; font-size:11px; line-height:2em; position:absolute; left:0; top:0; padding-right:9px; padding-left:9px; height:26px; z-index:30;}
+.section_bnr ul li .bnr_photo .style3 {font-weight: bold; background-color:#3c3f91;}
+.section_bnr ul li .bnr_video .style3 {font-weight: bold; background-color:#00aeef;}
+
+.section_bnr ul {display:flex; overflow:hidden;}
+.section_bnr ul li {display:block; float:left; margin-left:44px; height:290px; width:370px;}
+.section_bnr ul li a img {height:290px; width:370px;}
+.section_bnr ul li .btn_play {display:block; position:absolute; left:50%; top:50%; background:url("/images/btn/btn_play.png") no-repeat 0 0; margin-top:-26px; margin-left:-26px; height:52px; width:52px;}
+.section_bnr ul li:first-child {margin-left:0;}
+.section_bnr ul li div {position:relative; height:264px; width:304px;}
+.section_bnr ul li div a {display:block; height:264px; width:304px;}
+
+.section_bnr ul li div a .title_news {display:none;}
+.section_bnr ul li div a .title_date {display:none;}
+.section_bnr ul li div a .more {display:none; overflow:hidden; cursor:pointer; position:absolute; left:0; top:0; height:264px; width:304px;}
+.bnr_img .subtitle {position:absolute; left:0; top:0; background-color: #00aeef; color:#fff;padding:5px; width:120px; height:16px;}
+.bnr_video .subtitle {position:absolute; left:0; top:0; background-color: #00aeef; color:#fff;padding:5px; width:90px; height:16px;}
+/*
+.section_bnr ul li:hover .bnr_photo a .more {background:url("/images/main/btn_photo_more.png") no-repeat 0 0; display:block;}
+.section_bnr ul li:hover .bnr_video a .more {background:url("/images/main/btn_video_more.png") no-repeat 0 0; display:block;}
+*/
+.section_bnr ul li:hover .btn_play {display:none;}
+.section_bnr ul li:hover div a .title_news {display:block; overflow:hidden; color:#fff; font-size:14px; letter-spacing:-1px; position:absolute; bottom:46px; left:25px; height:15px; width:260px; z-index:10;}
+.section_bnr ul li:hover div a .title_date {display:block; color:#fff; font-size:12px; font-style:normal; letter-spacing:-1px; position:absolute; bottom:25px; left:25px; z-index:10;}
+
+
+.area_campaign {overflow:hidden; position:relative; margin-top:70px;}
+.campagin_bts {float:left; background:url('../images/main/bts.png') no-repeat 0 0;margin-bottom:30px; width:580px; height:200px;}
+.campagin_bts .subtitle {background-color: #00aeef; color:#fff;padding:5px; width:106px;}
+.campagin_bts .maintitle {background-color: #00aeef; color:#fff; margin-left:20px; margin-top:130px; font-size:1.0em;line-height:1.2em; width:210px;padding:2px;}
+.campagin_bts .maintitle2 {float:left; background-color: #00aeef; color:#fff; margin-left:20px; margin-top:100px; font-size:1.3em;line-height:1.2em; width:100px;padding:2px; font-weight:600;}
+.campagin_etc {float:left; background:url('/images/main/banner_kim-hye-soo.jpg') no-repeat 0 0;margin-bottom:30px; width:580px; height:200px; margin-left:40px;}
+.campagin_etc .subtitle {background-color: #00aeef; color:#fff;padding:5px; width:165px;}
+.campagin_etc .maintitle {background-color: #00aeef; color:#fff; margin-left:20px; margin-top:130px; font-size:1.0em;line-height:1.2em; width:450px;padding:2px;}
+.campagin_etc .maintitle2 {float:left; background-color: #00aeef; color:#fff; margin-left:20px; margin-top:100px; font-size:1.3em;line-height:1.2em; width:145px;padding:2px; font-weight:600;}
+.campagin_long {float:left; background:url('/images/main/banner_lng_active.png') no-repeat 0 0;width:1200px; height:140px;margin-bottom:30px;}
+.campagin_long .maintitle {color:#fff;text-align:center; padding-right:20px; padding-top:70px; font-size:1.8em;line-height:1.3em;font-weight:bold;}
+.campagin_long .maindesc {color:#fff; padding-left:60px; font-size:1em;}
+.btn_style99 {background-color:#fff; display:inline-block; color:#00aeef; margin-left:20px; padding:8px 12px 8px 12px; margin-top:15px; font-weight:600;}
+
+.campagin_tran {float:left; background:url('/images/main/unicef_news.jpg') no-repeat 0 0;margin-bottom:30px; width:580px; height:200px;}
+.campagin_tran .subtitle {background-color: #00aeef; color:#fff;padding:5px; width:154px;}
+.campagin_tran .maintitle {color:#000; margin-left:40px; margin-top:62px; font-size:1.8em;line-height:1.4em;padding:2px; font-weight:700;}
+.campagin_tran .maintitle p {font-size:0.64em; font-weight:normal;}
+.campagin_fact {float:left; background:url('../images/main/fact.png') no-repeat 0 0;margin-bottom:30px; width:580px; height:200px; margin-left:40px;}
+.campagin_fact .subtitle {background-color: #00aeef; color:#fff;padding:5px; width:214px;}
+.campagin_fact .maintitle {color:#000; margin-left:30px; margin-top:60px; font-size:1.9em;line-height:1.2em;padding:2px; font-weight:700;}
+
+/* 2016-05-18 메인푸터 간격 다른배너 간격과 통일 */
+.mian_wrap #footer {margin-top:37px;}
+
+.holiday_pop_wrap{
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:500px;
+	margin-left:-350px;
+	border:5px solid #0fbcff;
+	box-shadow:5px 5px 10px;
+	z-index:200;
+}
+.holiday_pop_wrap .donation_pop_head{position:relative;background:#0fbcff;}
+.holiday_pop_wrap .donation_pop_head p{
+	width:400px;	
+	margin:0 auto;
+	color:#fff;
+	font-size:24px;
+	font-weight:bold;
+	padding-top:15px;
+}
+.holiday_pop_wrap .donation_pop_head p.desc5 {
+	font-size:20px;
+	padding-bottom:15px;
+}
+.holiday_pop_wrap .donation_pop_head a{
+	display:block;
+	position:absolute;
+	top:15px;
+	right:20px;
+	font-weight:bold;
+}
+.holiday_pop_wrap .donation_pop_desc{padding-top:30px;background:#fff;font-size:15px; line-height:22px;padding-left:44px; padding-bottom:25px;}
+.holiday_go {overflow:hidden; text-align:right; padding-top:10px;}
+.holiday_go a {background-color:#e835a1; color:#fff; font-size:15px; font-weight:bold; display:inline-block; line-height:38px; text-align:center; height:38px; width:200px; text-align:center; margin-left:90px;}

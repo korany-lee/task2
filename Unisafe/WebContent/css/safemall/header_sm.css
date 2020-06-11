@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+#top_fixed .top_cate {
+    margin: 0 auto;
+    padding: 0px;
+    width: 100%;
+    height: 49px;
+    text-align: center;
+    border-top: 1px solid #e6e6e6;
+    background-color: rgba( 255,255,255,0.9 );
+    z-index: 98;
+}
+
+.xans-layout-category .position > ul {
+    padding: 0px;
+    font-size: 0;
+    line-height: 0;
+}
+
+#top_fixed{
+	margin: 0 auto;
+    padding: 0px;
+    width: 100%;
+    height: 49px;
+    text-align: center;
+/*     border-top: 1px solid #e6e6e6; */
+/*     border-bottom: 1px solid #e6e6e6; */
+    background-color: rgba( 255,255,255,0.9 );
+    z-index: 98;
+}
+
+#top_fixed .top_cate ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.xans-layout-category {
+    margin: 0 auto;
+    text-align: center;
+    width: 1280px;
+    height: 49px;
+    background-color: rgba( 255,255,255,0 );
+    z-index: 98;
+}
+body, code {
+    font: 0.75em Verdana,Dotum,AppleGothic,sans-serif;
+    color: #353535;
+    background: #fff;
+}
+
+
+#top_fixed .header__menulist .headerQuick li {  float: left; background: url(../images/bar_header_quick.gif) no-repeat 0 35%; font-size: 11px;}
+#top_fixed .header__menulist .headerQuick li.reciept {   display: inline-block; height: auto;}
+#top_fixed .header__menulist .headerQuick { position: absolute;  right: 80px; top: 10px;}
+#top_fixed { width: 100%; height: auto;  position: relative;  margin-bottom: 20px; z-index: 99; }
+#top_fixed .header__menulist { margin: 0 auto 0; position: relative; z-index: 2; background-color: #fff;}
+#top_fixed .header__menulist .headerQuick li:first-child {
+    padding-left: 0px;
+    background: none;
+    margin-left: 0px;
+}
+
+.header__wrapper {
+  position: relative;
+  width: 970px;
+  margin: 0 auto;
+}
+
+
+#naver_ico {
+
+  height: 25px;
+  -webkit-background-size: 1742px 1452px;
+  overflow: hidden;
+  display: block;
+  white-space: nowrap;
+  text-indent: 102%;
+}
+
+#blank{border-bottom: 2px solid #01adef; height:63px;}
+
+<!-- 메인 상단 카테고리 -->
+
+
+#wraper #container {
+    width: 100%;
+    height :900px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.xans-layout-category .position > ul > li {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: 49px;
+    padding: 0 27px 0px;
+}
+li {
+    list-style: none;
+}
+.xans-layout-category .position > ul > li > a {
+    font-family: 'Sunflower', sans-serif;
+    font-size: 15px;
+    line-height: 49px;
+    text-align: left;
+    color: #333;
+    text-decoration: none;
+}
+
+ .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }

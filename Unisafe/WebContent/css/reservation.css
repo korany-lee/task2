@@ -1,0 +1,280 @@
+@charset "UTF-8";
+
+.sub-title h3 {
+    font-family: "Nanum Square";
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+    }
+
+    .assc-bg {background:url(../images/assc_bg.png) no-repeat 0 0/contain}
+	span.reservation:before,
+	span.complete:before { 
+		content: '●';
+	}
+	
+	span.reservation:before {
+		color: rgba(178, 219, 161, 0.85);
+	}
+	
+	span.complete:before {
+		color: rgba(255, 0, 0, 0.8);
+	}
+
+	ul { margin: 0; padding: 0; list-style: none; }
+	
+	.ellipsis {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	
+	/* 캘린더 css */
+	
+	.calendar-form {
+		overflow: hidden;
+	}
+	
+	.calendar-form .header {
+		margin-bottom: 3%;
+		border: 1px solid #eee;
+		padding: 20px;
+		border-radius: 10px;
+	}
+	.calendar-form .header h4{
+		font-size: 18px;
+		font-weight: bold;
+		margin-bottom: 15px;
+	}
+
+	.calendar-form .header ol {
+		padding-left: 20px;
+	}
+	
+	.calendar-form .header ol li {
+		list-style-type: decimal;
+	}
+
+	@media (max-width:767px) {
+		.calendar-form .header{padding:15px;}
+		.calendar-form .header h4{font-size:16px;}
+		.calendar-form .header li{font-size:12px;}
+	}
+
+	.calendar-form .btn{
+		margin-top:30px;
+	}
+
+	.calendar {
+		border: 1px solid #fafafa;
+		width: 100%;
+	}
+	
+	.calendar .calendar-nav {
+		position:relative;
+		border: 1px solid #eee;
+		height: 50px;
+		text-align: center;
+		border-radius: 10px 10px 0 0;
+	}
+	
+	.calendar .calendar-nav .prev {
+		left: 12px;
+		margin-top: -12px;
+		position: absolute;
+		top: 50%;
+	}
+	
+	.calendar .calendar-nav .next {
+		margin-top: -12px;
+		right: 12px;
+		position: absolute;
+		top: 50%;
+	}
+
+	.calendar .calendar-nav .prev a,
+	.calendar .calendar-nav .next a{
+		display:inline-block;
+		width:26px;
+		height:26px;
+		font-size:14px;
+		line-height:26px;
+		text-align:center;
+		color:#fff;
+		background:#999;
+	}
+	
+	.calendar .calendar-nav .prev a:hover,
+	.calendar .calendar-nav .prev a:active,
+	.calendar .calendar-nav .next a:hover,
+	.calendar .calendar-nav .next a:active{
+		background:#777;
+	}
+
+	.calendar .calendar-nav .year {
+		font-size: 24px;
+		height: 100%;
+		line-height: 50px;
+	}
+	
+	.calendar thead .calendar-cell {
+		border-top: 0;
+		color: #666;
+		height: 35px;
+		line-height:35px;
+		text-align: center;
+		background:#f3f3f3;
+        background:none !important;
+		border-left:1px solid #fff;
+	}
+
+	.calendar .calendar-cell {
+		background: #fafafa;
+        background:none !important;
+		border-right: 1px solid #eee;
+		border-bottom: 1px solid #eee;
+		vertical-align: top;
+		width: 14.2%;
+	}
+
+	.calendar .calendar-cell:first-child{
+		border-left: 1px solid #eee;
+	}
+	
+	@media (max-width:767px) {
+		.calendar .calendar-row .calendar-cell {
+			height: 50px;
+			font-size:12px;
+		}
+	}
+	
+	@media (min-width: 520px) and (max-width:767px) {
+		.calendar .calendar-row .calendar-cell {
+			height: 75px;
+		}
+	}
+	
+	@media (min-width: 768px) {
+		.calendar .calendar-row .calendar-cell {
+			height: 100px;
+		}
+	}
+	
+	.calendar .reservation-cell {
+		background: #fff;
+        background:none !important;
+	}
+	
+	.calendar .reservation-cell .reservation-cell-wrap {
+		height: 100%;
+		position: relative;
+	}
+	
+	.calendar .reservation-cell .reservation-cell-wrap:before {
+		content: attr(data-day);
+		left: 3%;
+		position: absolute;
+		top: 3%;
+		transition: 0.3s all ease;
+		z-index: 110;
+	}
+	
+	@media (max-width: 767px) {
+		.calendar .reservation-cell .reservation-cell-wrap:before {
+			text-align: center;
+			top: calc(50% - 10px);
+			width: 100%;
+			z-index: 100;
+		}
+		
+		.calendar .reservation-cell .reservation-cell-wrap.reservation:before {
+			color: rgba(255, 255, 255, 0);
+		}
+	}
+	
+	.calendar .reservation-cell .reservation-cell-wrap.reservation .btn,
+	.calendar .reservation-cell .reservation-cell-wrap.complete .btn{
+		left: 15%;
+		margin-top: -17px;
+		position: absolute;
+		top: calc(50% + 10px);
+		width: 70%;
+		z-index: 100;
+	}
+	/* btn bgcolor */
+	.calendar .reservation-cell .reservation-cell-wrap.res-close {
+		background: #fafafa;
+        background:none !important;
+	}
+	.calendar .reservation-cell .reservation-cell-wrap.reservation .btn {
+		background: #6ACFCF;
+        opacity:0.5;
+	}
+	.calendar .reservation-cell .reservation-cell-wrap.complete .btn {
+		border:1px solid #bbb;
+	}
+	.calendar .reservation-cell .reservation-cell-wrap.today {
+		background: #f4ffae;
+	}
+
+	@media (max-width: 767px) {
+		.calendar .reservation-cell .reservation-cell-wrap.reservation .btn {
+			height: 100%;
+			left: 0;
+			margin: 0;
+			padding: 0;
+			top: 0;
+			width: 100%;
+			z-index: 110;
+		}
+		.calendar .reservation-cell .reservation-cell-wrap.complete .btn {
+			border:0;
+		}
+		.calendar .reservation-cell .reservation-cell-wrap.today .btn{
+			box-sizing:border-box;border:3px solid #f4ffae;
+		}
+	}
+
+	/* btn content */
+	.calendar .reservation-cell .reservation-cell-wrap.reservation .btn:after {
+		color: #fff;
+		content: '예약하기';
+	}
+	
+	.calendar .reservation-cell .reservation-cell-wrap.complete .btn:after {
+		color: #bbb;
+		content: '예약완료';
+	}
+	
+	.calendar .reservation-cell .reservation-cell-wrap.res-close .btn:after {
+		color: #ddd;
+		content: '예약불가';
+	}
+
+	@media (max-width: 1199px) {
+		.calendar .reservation-cell .reservation-cell-wrap .btn:after{
+			font-size:12px;
+		}
+	}
+	@media (max-width: 767px) {
+		.calendar .reservation-cell .reservation-cell-wrap.reservation .btn:after{
+			content: attr(data-day);
+			display: block;
+			position: absolute;
+			top: calc(50% - 10px);
+			width: 100%;
+			border:0;
+		}
+		.calendar .reservation-cell .reservation-cell-wrap.complete .btn:after{
+			content: '';
+			display: block;
+			position: absolute;
+			top: calc(50% - 10px);
+			width: 100%;
+			border:0;
+		}
+		.calendar .reservation-cell .reservation-cell-wrap.res-close .btn:after {
+			display:none;
+		}
+	}

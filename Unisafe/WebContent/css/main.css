@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    color: inherit;
+}
+* {
+    -webkit-text-size-adjust: none;
+}
+#wrap { width:auto; height:auto; }
+
+/* #wrap #content { float:left; width:65%; height:700px; margin-left:10px; background:#EFF0F4; }
+#wrap #right { float:left; width:15%; height:700px; margin-left:10px; background:#EFF0F4; } */
+#wrap #footer { clear:both; width:100%; height:150px; margin-left:10px; margin-top:10px; background:#EFF0F4; }
+
+
+<!-- header css -->
+
+ span { font-size: 30pt; }
+.a {background-color: #00BFFF;height: 2px;}
+ul {display: block; list-style-type: disc;margin-block-start: 1em; margin-block-end: 1em;margin-inline-start: 0px;margin-inline-end: 0px;padding-inline-start: 40px;}
+
+#header .headerBox .headerQuick li:first-child {
+    padding-left: 0px;
+    background: none;
+    margin-left: 0px;
+    }
+    
+#header .headerBox .headerQuick li {  float: left; background: url(../images/bar_header_quick.gif) no-repeat 0 35%; padding-left: 10px; margin-left: 9px;font-size: 11px;}
+#header .headerBox .headerQuick li.reciept {   display: inline-block; height: auto;}
+#header .headerBox .headerQuick { position: absolute;  right: 0; top: 10px;}
+#header { width: 100%; height: auto;  position: relative;  margin-bottom: 20px; z-index: 99; border-bottom: 2px solid #01adef;}
+#header .headerBox { width: 960px; margin: 0 auto 0; position: relative; height: 120px; z-index: 2; background-color: #fff;}
+body {line-height: 100%; font-family: 'Nanum Gothic',dotum,verdana !important; color: #4a4a4a;}
+li{text-align: -webkit-match-parent;}
+ol, ul {list-style: none;}
+a:link {text-decoration: none; color: #4a4a4a;}
+#gnb ul { overflow: hidden;}
+#gnb ul li {float: left; margin-right: 50px;line-height: 23px;padding-bottom: 22px;}
+#gnb ul li a { font-size: 17px;font-weight: bold;display: block; color: #090909;padding: 0 8px; letter-spacing: -1px;}
+#gnb {float: left;margin-left: 50px; margin-top: 40px;}#header .headerBox .logo {float: left;margin-top: 25px;}
+
+<!-- footer css -->
+#footer {
+    border-top: 1px solid #eaeaea;
+    background-color: #eff0f4;
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+#footer .footerBox {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#footer .footerBox .menuWrap {
+    overflow: hidden;
+}
+
+#footer .footerBox .menuBox {
+    float: left;
+    overflow: hidden;
+    width: 790px;
+}
+
+#footer .footerBox .rightBox {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 172px;
+}
+
+#footer .footerBox .footerBottom {
+    overflow: hidden;
+    margin-top: 20px;
+    width: 100%;
+    padding-top: 20px;
+    border-top: 1px solid #cbcbcb;
+}
+
+#footer .footerBox .footerBottom ul {
+    overflow: hidden;
+    font-size: 12px;
+    color: #777;
+}
+
+#footer .footerBox .footerBottom ul li:first-child {
+    background: none;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+#footer .footerBox .footerBottom ul li {
+    background: url(../images/bar_footer.gif) no-repeat 0 45%;
+    padding-left: 9px;
+    margin-left: 8px;
+    float: left;
+    line-height: 20px;
+}
+
+#footer .footerBox .footerBottom ul li a {
+    font-size: 11px;
+    color: #777;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#footer .footerBox .footerBottom p {
+    overflow: hidden;
+    font-size: 13px;
+    color: #777;
+    line-height: 20px;
+}
